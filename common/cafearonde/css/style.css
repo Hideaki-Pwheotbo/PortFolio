@@ -235,7 +235,7 @@ ul li {
 }
 
 .about_Box_Text {
-    padding: 20px
+    padding: 20px;
 }
 
 .title {
@@ -1106,5 +1106,43 @@ ul li {
     .top_Image .name::before,
     .top_Image .name::after {
         width: 250px;
+    }
+}
+
+@media (max-width: 375px) {
+    .about_Box_Text img {
+        top: 260px;
+        width: 50%;
+        left: 180px;
+        height: auto;
+    }
+    
+    .about_Box_Text::after {
+        width: 320px;
+        top: 470px;
+    }
+    
+    .about_Box_Text p {
+        font-size: 1.4rem;
+        line-height: 3.5rem;
+    }
+    
+    .topic_Item_Text p {
+        font-size: 1.3rem;
+    }
+    
+    .news_Inner {
+        display: block;
+        max-width: 310px;
+        margin: 0 auto;
+        
+    }
+    
+    .news_List {
+        width: 100%;
+    }
+    
+    .news_List ul li {
+        font-size: 1.3rem;
     }
 }
